@@ -44,30 +44,25 @@ body {
   to{background-color: rgba(1, 1, 1, 0.625)}
 }
 
+.fade-in {
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 1.5s;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
+}
+
 h1 {
   font-family: Minecraftia;
   font-size: clamp(3rem, 12vw, 6.65rem);
   color: white;
   margin-top: 2rem;
   text-shadow: 8px 8px gray;
-  opacity: 0;
-  animation-name: fade-in;
-  animation-duration: 1.5s;
-  animation-delay: .5s;
-  animation-fill-mode: forwards;
   user-select: none;
 }
 
 #portraits {
   --bs-aspect-ratio: 66.6667%;
-}
-
-#links {
-  opacity: 0;
-  animation-name: fade-in;
-  animation-duration: 1.5s;
-  animation-delay: .5s;
-  animation-fill-mode: forwards;
 }
 
 #links .link {
