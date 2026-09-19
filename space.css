@@ -61,6 +61,14 @@ h1 {
   user-select: none;
 }
 
+h3 {
+  font-family: Minecraftia;
+  font-size: clamp(1rem, 4vw, 2rem);
+  color: white;
+  text-shadow: 4px 4px gray;
+  user-select: none;
+}
+
 #portraits {
   --bs-aspect-ratio: 66.6667%;
 }
