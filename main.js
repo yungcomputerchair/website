@@ -11,6 +11,7 @@ var ticksToNext = 17*3;
 
 var canvas = document.getElementById("canvas");
 resizeCanvas();
+window.addEventListener("resize", resizeCanvas);
 initialize();
 
 function toStandard(bearing) {
@@ -18,8 +19,8 @@ function toStandard(bearing) {
 }
 
 function resizeCanvas() {
-  canvas.width = document.body.clientWidth;
-  canvas.height = document.body.clientHeight;
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
 }
 
 function initialize() {
