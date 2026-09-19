@@ -27,11 +27,7 @@ body {
 }
 
 #content {
-  width: 100%;
-  min-height: 100vh;
   min-height: 100dvh;
-  display: flex;
-  flex-direction: column;
   animation-name: darken-back;
   animation-fill-mode: forwards;
   animation-delay: .5s;
@@ -52,10 +48,8 @@ h1 {
   font-family: Minecraftia;
   font-size: clamp(3rem, 12vw, 6.65rem);
   color: white;
-  margin: 0 auto;
-  text-align: center;
+  margin-top: 2rem;
   text-shadow: 8px 8px gray;
-  padding: clamp(24px, 6vh, 50px) 16px 0;
   opacity: 0;
   animation-name: fade-in;
   animation-duration: 1.5s;
@@ -64,28 +58,11 @@ h1 {
   user-select: none;
 }
 
-#portrait-container {
-  width: min(100% - 32px, 560px);
-  padding: 0;
-}
-
-#portraits,
-#portraits .carousel-inner,
-#portraits .carousel-item {
-  height: clamp(220px, 42vh, 440px);
-}
-
-#portraits .carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+#portraits {
+  --bs-aspect-ratio: 66.6667%;
 }
 
 #links {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
   opacity: 0;
   animation-name: fade-in;
   animation-duration: 1.5s;
@@ -141,11 +118,8 @@ h1 {
 
 #footer {
   font-family: Minecraftia;
-  font-size: 8pt;
-  margin-top: auto;
-  padding: 8px 16px 12px;
-  width: 100%;
-  text-align: center;
+  font-size: clamp(8px, 2.7vw, 8pt);
+  white-space: nowrap;
   color: gray;
   user-select: none;
 }
