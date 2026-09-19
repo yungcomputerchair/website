@@ -1,6 +1,6 @@
 /*
 * Main Javascript file.
-* Gent Semaj, GPLv3.
+* Gent Semaj, AGPLv3.
 * 4/27/2020
 */
 
