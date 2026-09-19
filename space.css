@@ -101,6 +101,14 @@ h1 {
   background-image:url('images/icons/github_active.png');
 }
 
+#link-linkedin {
+  background-image:url('images/icons/linkedin.png');
+}
+
+#link-linkedin:hover {
+  background-image:url('images/icons/linkedin_active.png');
+}
+
 #link-ll {
   background-image:url('images/icons/ll.png');
 }
