@@ -18,9 +18,9 @@
   </head>
   <body>
     <canvas id="canvas"></canvas>
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
     <div id="content" class="d-flex flex-column min-vh-100">
-      <h1 class="text-center px-3 mb-3 pt-3 fade-in">gent.bio</h1>
+      <h1 id="host" class="text-center px-3 mb-3 pt-3 fade-in">gent.bio</h1>
       <div class="container fade-in">
         <div class="row g-4 align-items-center justify-content-center">
           <div class="col-12 col-md-6">
@@ -53,6 +53,17 @@
             </p>
           </div>
         </div>
+        <h3 class="link-bar d-flex flex-column flex-sm-row flex-wrap justify-content-center align-items-center gap-2 mt-5 mb-4 text-center">
+          <a href="https://github.com/yungcomputerchair">github</a>
+          <span class="d-none d-sm-inline sep">|</span>
+          <a href="https://www.linkedin.com/in/gent-semaj">linkedin</a>
+          <span class="d-none d-sm-inline sep">|</span>
+          <a href="RESUME_SP25_PUBLIC.pdf">resume</a>
+          <span class="d-none d-sm-inline sep">|</span>
+          <a href="mailto:me@ycc.dev">email</a>
+          <span class="d-none d-sm-inline sep">|</span>
+          <a href="key.asc">pgp key</a>
+        </h3>
       </div>
       <!-- <div id="links" class="d-flex justify-content-center my-auto fade-in">
         <div class="link" onclick="window.location.href='https://github.com/yungcomputerchair'" id="link-github"></div>

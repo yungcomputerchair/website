@@ -69,6 +69,23 @@ h3 {
   user-select: none;
 }
 
+.link-bar a {
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.link-bar a:hover,
+.link-bar a:focus-visible {
+  color: white;
+  text-shadow: 4px 4px gray;
+}
+
+.link-bar .sep {
+  color: gray;
+  text-shadow: none;
+}
+
 #portraits {
   --bs-aspect-ratio: 66.6667%;
 }

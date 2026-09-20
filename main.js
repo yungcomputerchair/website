@@ -24,6 +24,8 @@ function resizeCanvas() {
 }
 
 function initialize() {
+  document.getElementById("host").textContent = window.location.hostname;
+
   // Create stars
   for(var i = 0; i < 400; i++) {
     var starX = Math.random() * 2 * canvas.width - (canvas.width / 2);
